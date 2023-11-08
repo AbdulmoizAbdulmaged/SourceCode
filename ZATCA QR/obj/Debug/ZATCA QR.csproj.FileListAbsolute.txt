@@ -1,0 +1,16 @@
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\bin\Debug\ZATCA QR.exe.config
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\bin\Debug\ZATCA QR.exe
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\bin\Debug\ZATCA QR.pdb
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\bin\Debug\QRCoder.dll
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\bin\Debug\zxing.dll
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\bin\Debug\zxing.presentation.dll
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\bin\Debug\zxing.xml
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\bin\Debug\zxing.presentation.xml
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\obj\Debug\ZATCA QR.csproj.AssemblyReference.cache
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\obj\Debug\ZATCA_QR.Form1.resources
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\obj\Debug\ZATCA_QR.Properties.Resources.resources
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\obj\Debug\ZATCA QR.csproj.GenerateResource.cache
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\obj\Debug\ZATCA QR.csproj.CoreCompileInputs.cache
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\obj\Debug\ZATCA QR.csproj.CopyComplete
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\obj\Debug\ZATCA QR.exe
+C:\Users\Abdu\OneDrive\Desktop\.NET\C#\ZATCA QR\ZATCA QR\obj\Debug\ZATCA QR.pdb

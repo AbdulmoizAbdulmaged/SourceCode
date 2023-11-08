@@ -1,0 +1,81 @@
+Imports System.Data
+Imports Oracle.ManagedDataAccess.Client
+Imports Oracle.ManagedDataAccess.Types
+Imports System.Security.Cryptography
+Imports System.Text
+Imports System.Drawing
+Imports System.Drawing.Imaging
+Imports System.Drawing.Printing 'for drawing QR and print
+'Imports Oracle.ManagedDataAccess.EntityFramework
+
+Imports System.IO
+
+Imports System.IO.Ports
+
+Imports System.Drawing.Graphics
+Imports System.Drawing.Drawing2D
+Imports System.Drawing.Image
+Imports QRCoder 'for QR
+
+Imports ZXing ' for generating barcode
+
+
+ Dim line As String
+        Dim FilePath As String = "C:\POS\Receipts\" + txt1.Text.Trim + ".txt"
+        ' Create new StreamReader instance with Using block.
+        Dim reader As StreamReader = New StreamReader(FilePath)
+
+        While reader.Read
+            ' Read one line from file
+            line = reader.ReadLine
+            line = "            " & line
+            hight = hight + 13
+            e.Graphics.DrawString(line, f9, Brushes.Black, leftmargin, hight, Center)
+            'MessageBox.Show(line)
+            If reader.EndOfStream Then
+                Exit While
+            End If
+
+        End While
+
+        Try
+            Dim value1 As String = getTLV(1, company_name)
+            Dim value2 As String = getTLV(2, vat_number)
+            Dim value3 As String = getTLV(3, DataGridView1.Rows(0).Cells(0).Value)
+            Dim value4 As String = getTLV(4, DataGridView1.Rows(0).Cells(5).Value)
+            Dim value5 As String = getTLV(5, DataGridView1.Rows(0).Cells(8).Value)
+            Dim b As Byte() = System.Text.Encoding.UTF8.GetBytes(value1 & value2 & value3 & value4 & value5)
+            Dim t As String = Convert.ToBase64String(b)
+
+            Dim gen As New QRCodeGenerator
+            Dim data = gen.CreateQrCode(t, QRCodeGenerator.ECCLevel.M)
+            Dim code As New QRCode(data)
+
+            Dim qrImage As Image
+            qrImage = New Bitmap(code.GetGraphic(6))
+            e.Graphics.DrawImage(qrImage, CInt((e.PageBounds.Width - 170) / 2), hight + 11, 120, 120)
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+
+
+
+
+   Dim writer As New BarcodeWriter
+        writer.Format = BarcodeFormat.CODE_128
+        Try
+            Dim barcodeImage As Image
+
+            barcodeImage = New Bitmap(writer.Write(txt1.Text.Trim))
+            e.Graphics.DrawImage(barcodeImage, CInt((e.PageBounds.Width - 190) / 2), hight + 134)
+        Catch ex As Exception
+
+        End Try
+
+
+
+Private Function getTLV(tag As Integer, value As String) As String
+        Return Chr(tag) & Chr(value.Length) & value
+    End Function
+
+
