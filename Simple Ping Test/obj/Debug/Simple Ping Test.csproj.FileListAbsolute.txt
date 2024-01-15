@@ -1,0 +1,10 @@
+C:\Users\Abdu\source\repos\Simple Ping Test\Simple Ping Test\bin\Debug\Simple Ping Test.exe.config
+C:\Users\Abdu\source\repos\Simple Ping Test\Simple Ping Test\bin\Debug\Simple Ping Test.exe
+C:\Users\Abdu\source\repos\Simple Ping Test\Simple Ping Test\bin\Debug\Simple Ping Test.pdb
+C:\Users\Abdu\source\repos\Simple Ping Test\Simple Ping Test\obj\Debug\Simple Ping Test.csproj.AssemblyReference.cache
+C:\Users\Abdu\source\repos\Simple Ping Test\Simple Ping Test\obj\Debug\Simple_Ping_Test.Form1.resources
+C:\Users\Abdu\source\repos\Simple Ping Test\Simple Ping Test\obj\Debug\Simple_Ping_Test.Properties.Resources.resources
+C:\Users\Abdu\source\repos\Simple Ping Test\Simple Ping Test\obj\Debug\Simple Ping Test.csproj.GenerateResource.cache
+C:\Users\Abdu\source\repos\Simple Ping Test\Simple Ping Test\obj\Debug\Simple Ping Test.csproj.CoreCompileInputs.cache
+C:\Users\Abdu\source\repos\Simple Ping Test\Simple Ping Test\obj\Debug\Simple Ping Test.exe
+C:\Users\Abdu\source\repos\Simple Ping Test\Simple Ping Test\obj\Debug\Simple Ping Test.pdb
