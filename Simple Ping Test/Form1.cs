@@ -175,6 +175,8 @@ namespace Simple_Ping_Test
             ipList.Add(srv16);
             Server1 srv17 = new Server1("172.29.30.191", "UAT_Int server");
             ipList.Add(srv17);
+            Server1 srv18 = new Server1("172.29.30.24", "CO Server KSA");
+            ipList.Add(srv18);
 
 
 
